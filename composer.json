@@ -1,6 +1,6 @@
 {
     "name": "lyxxxh/larlang",
-    "description": "laravel根据 (表字段和自定义样本)生成各国语言包",
+    "description": "laravel根据 (表字段和自定义文件)生成各国语言包",
     "authors": [
         {
             "name": "xxh",

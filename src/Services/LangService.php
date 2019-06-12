@@ -124,4 +124,37 @@ class LangService
 
 
 
+    public function getFoldFiles($dir)
+    {
+        $fileArray[] = NULL;
+
+        $basename = $dir.'/';
+        if (false != ($handle = opendir ( $dir ))) {
+            $i=0;
+            while ( false !== ($file = readdir ( $handle )) ) {
+                if ($file != "." && $file != ".."&&strpos($file,".")) {
+
+                    $fileArray[$i]= $basename.$file;
+
+                    if($i==100){
+                        break;
+                    }
+                    $i++;
+                }
+            }
+
+            closedir ( $handle );
+        }
+
+
+        return $fileArray;
+
+    }
+
+    public function getPath()
+    {
+        
+    }
+
+
 }

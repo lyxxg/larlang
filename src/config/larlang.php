@@ -7,7 +7,7 @@ return [
     //要翻译的语言包
     //字段解释看 http://api.fanyi.baidu.com/api/trans/product/apidoc
     'lang' =>[
-        'zh','en'
+        'zh','en','cht'
 
     ],
 
