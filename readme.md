@@ -1,4 +1,4 @@
-![图片演示](https://gz.bcebos.com/v1/xxh-download/lang.gif)
+[点击查看演示](https://gz.bcebos.com/v1/xxh-download/lang.gif )
 ### 安装
 
      composer require lyxxxh/larlang
