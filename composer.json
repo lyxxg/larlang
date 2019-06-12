@@ -1,0 +1,19 @@
+{
+    "name": "lyxxxh/lartran",
+    "description": "laravel使用 百度翻译和有道翻译",
+    "authors": [
+        {
+            "name": "xxh",
+            "email": "449399575@qq.com"
+        }
+    ],
+
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Xxh\\LarTran": "src/"
+        }
+    }
+
+
+}
