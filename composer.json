@@ -1,6 +1,6 @@
 {
-    "name": "lyxxxh/lartran",
-    "description": "laravel使用 百度翻译和有道翻译",
+    "name": "lyxxxh/larlang",
+    "description": "laravel根据 (表字段和自定义样本)生成各国语言包",
     "authors": [
         {
             "name": "xxh",
@@ -8,10 +8,12 @@
         }
     ],
 
-    "require": {},
+    "require": {
+        "lyxxxh/lartran": "*"
+    },
     "autoload": {
         "psr-0": {
-            "Xxh\\LarTran": "src/"
+            "Xxh\\LarLang": "src/"
         }
     }
 
