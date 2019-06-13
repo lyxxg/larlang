@@ -5,7 +5,7 @@
      
      添加服务提供者
      Xxh\LarTran\LarTranProvider::class  //依赖此服务做翻译
-     Xxh\LarTran\LarLangProvider::class  
+     Xxh\LarLang\LarLangProvider::class  
         
      发布配置
      php artisan vendor:publish --provider="Xxh\LarLang\LarLangProvider"
